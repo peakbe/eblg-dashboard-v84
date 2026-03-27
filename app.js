@@ -356,6 +356,9 @@ document.getElementById("runway-info").textContent =
 document.getElementById("phase-select").addEventListener("change", () => {
   refresh();
 });
+document.getElementById("reset-map").addEventListener("click", () => {
+  map.setView([50.6374, 5.4432], 12); // centre + zoom par défaut
+});
 
 /* 🔧 FIX : attendre que la carte soit prête */
 map.whenReady(() => {
