@@ -19,6 +19,8 @@ import { initUI } from "./js/ui.js";
 // SONOMETRES
 import { populateSonometerList } from "./js/sonometers.js";
 
+import { ENDPOINTS, PROXY } from "./js/config.js";
+
 // ======================================================
 // INITIALISATION
 // ======================================================
